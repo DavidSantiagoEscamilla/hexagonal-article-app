@@ -1,0 +1,27 @@
+# Dependencias
+/vendor/
+/node_modules/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+/logs/
+
+# Cache
+/cache/
+/storage/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Composer lock (opcional, incluir si quieres reproducibilidad)
+# composer.lock
